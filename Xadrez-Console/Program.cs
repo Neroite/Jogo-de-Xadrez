@@ -9,6 +9,8 @@ namespace Xadrez_Console
         {
             Board Tab = new Board(8, 8);
 
+            Tela.ImprimirTabuleiro(Tab);
+
             Console.ReadLine();
         }
     }
