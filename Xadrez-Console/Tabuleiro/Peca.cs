@@ -16,5 +16,10 @@ namespace Tabuleiro
             QteMovimentos = 0;
         }
 
+        public void IncrementarQteMoviemntos()
+        {
+            QteMovimentos++;
+        }
+
     }
 }
