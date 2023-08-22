@@ -8,9 +8,9 @@ namespace Tabuleiro
         public int QteMovimentos { get; protected set; }
         public Board Tab { get; protected set; }
 
-        public Peca(Posicao posicao, Board tabuleiro, Cor cor)
+        public Peca(Board tabuleiro, Cor cor)
         {
-            Posicao = posicao;
+            Posicao = null;
             Tab = tabuleiro;
             Cor = cor;
             QteMovimentos = 0;
